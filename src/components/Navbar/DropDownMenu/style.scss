@@ -1,0 +1,28 @@
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 300px;
+    background-color: #e6f3fe;
+    top: 45px;
+    left: -10px;
+  }
+
+  &__item {
+    display: flex;
+    padding: 10px;
+
+    &:not(:last-child) {
+      border-bottom: 2px solid #9ed2ff;
+    }
+
+    &:hover {
+      background-color: #9ed2ff;
+    }
+  }
+}

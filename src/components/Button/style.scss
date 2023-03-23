@@ -1,0 +1,49 @@
+.button {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: justify-all;
+  cursor: pointer;
+  font-family: "Times New Roman";
+  font-size: 32px;
+
+  &_add {
+    color: green;
+    width: 100%;
+  }
+
+  &_close {
+    color: red;
+    width: 40px;
+    margin-left: 10px;
+  }
+
+  &_back {
+    display: flex;
+    position: fixed;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    right: 20px;
+    bottom: 20px;
+    border: 2px solid #9ed2ff;
+    background-color: #e6f3fe;
+    color: black;
+
+    &:hover {
+      background-color: #9ed2ff;
+    }
+  }
+
+  .add-icon {
+    margin-right: 10px;
+    font-size: 32px;
+  }
+
+  .up-icon {
+    font-size: 32px;
+  }
+}
